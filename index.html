@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media_style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="scrollbar.css">
+    <link rel="shortcut icon" href="Favicon.png" type="image/x-icon">
+
+</head>
+<body>
+    <div class="header">
+        <ul class="home-search">
+           <li><img src="pictures/logo.png" class="logo" width="80px"height="80px"alt="logo"></li>
+                <li><img width="35" height="35" src="pictures/homeimg.png" class="home-icon" ></li>
+                <li><img width="30" height="30" class="invert searchbar" src="pictures/search.svg" alt="search"><input autocomplete="off" type="text" class="searchinput" id="Search_bar"  placeholder="Search">
+                </li>
+                <li><h1 class="signup">Sign up</h1></li> 
+                <li><button class="login">Log in</button></li>
+                <li class="showName-li hidden"><h3 class="showName-login"></h3><img id="Profile-pic" src="pictures/profile-pic-blank.jpg" alt="Profile-pic"></li> 
+                 </ul>
+</div>
+<div class="container flex">
+    <div class="left bg-black">
+        <div class="left_meta_bar">
+        <div class="library">
+            <h1 class="librarayheading">Your Library</h1>
+              <ul class="library-menu">
+    <li class="liked-songs-">
+  <div class="liked_songs_bar">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="library-icon">
+        <path fill="currentColor" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 
+             2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 
+             19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+      </svg>
+      <span>Liked Songs</span>
+      <svg class="toggle-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M7 10l5 5 5-5H7z"/>
+        </svg>
+  </div>
+        <div class="songs-liked-history">
+            <ul class="library-songs-history">
+                <li><h3 class="history-view-heading">No Songs-liked</h3></li>
+            </ul>
+        </div>
+    </li>
+    <li class="Recently-viewed">
+   <div class="recently_viewed_bar">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="library-icon">
+        <path fill="currentColor" d="M12 20c4.41 0 8-3.59 8-8s-3.59-8-8-8-8 3.59-8 8 
+             3.59 8 8 8zm0-18c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 
+             6.48 2 12 2zm-.5 5h-1v6l5.25 3.15.75-1.23-4.5-2.67V7z"/>
+      </svg>
+      <span>Recently Viewed</span>
+      <svg class="toggle-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M7 10l5 5 5-5H7z"/>
+        </svg>
+   </div>
+        <div class="songs-recently-viewed">
+            <ul class="library-songs-history">
+             <li><h3>No Recently-reviewed-songs</h3></li>
+            </ul>
+        </div>
+    </li>
+    <li class="playlists-liked">
+        <div class="playlists_liked_bar">
+    <svg class="library-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100">
+  <rect x="0" y="0" width="80" height="15" fill="currentColor"/>
+  <rect x="0" y="35" width="80" height="15" fill="currentColor"/>
+  <rect x="0" y="70" width="60" height="15" fill="currentColor"/>
+  <polygon points="100,50 100,80 120,65" fill="currentColor"/>
+</svg>
+      <span>Liked Playlists</span>
+      <svg class="toggle-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M7 10l5 5 5-5H7z"/>
+        </svg>
+        </div>
+        <div class="liked-playlists-history">
+            <ul class="library-songs-history">
+                <li><h3>No playlists-liked</h3></li>
+            </ul>
+        </div>
+    </li>
+  </ul>
+        </div>
+        <div class="footer">
+     <a href="#">Legal</a>
+    <a href="#">Safety & Privacy Center</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Cookies</a>
+    <a href="#">About Ads</a>
+    <a href="#">Accessibility</a>
+        </div>
+    </div>
+    </div>
+    <div class="right ">
+        <div class="SearchResulBox"></div>
+        <div class="playlists">
+            <div class="mobile-SideBar">
+            <span class="button-showhide"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="3" y="4" width="18" height="2" fill="white"/>
+        <rect x="3" y="11" width="18" height="2" fill="white"/>
+        <rect x="3" y="18" width="18" height="2" fill="white"/>
+        </svg></span></div>
+    <h1 class="playlistsheading">Playlists</h1>
+<div class="cardcontainer">
+<div class="card">
+    <div class="imagecardsontainer">
+        <img src="pictures/Chill-vibes_pic.jpg" alt="">
+        <span class="playbutton Chill-vibes Playbutton_Play"><svg viewBox="0 0 24 24" class="playbuttonsvg">
+        <polygon points="8,5 8,19 19,12" fill="black"/>
+    </svg></span>
+    </div>
+    <h2 class="playlist-songsheading">Chill-vibes</h2>
+    <p class="parainplaylist">Relax and unwind with soft, soothing tunes.</p>
+</div>
+
+<div class="card">
+    <div class="imagecardsontainer">
+        <img src="pictures/Happy-hits_pic.jpg" alt="">
+        <span class="playbutton Happy-hits Playbutton_Play"><svg viewBox="0 0 24 24" class="playbuttonsvg">
+        <polygon points="8,5 8,19 19,12" fill="black"/>
+    </svg></span>
+    </div>
+    <h2 class="playlist-songsheading">Happy-hits</h2>
+    <p class="parainplaylist">Feel good songs to lift your mood anytime.</p>
+</div>
+
+<div class="card">
+    <div class="imagecardsontainer">
+        <img src="pictures/Morning-boost_pic.jpg" alt="">
+        <span class="playbutton Morning-boost Playbutton_Play"><svg viewBox="0 0 24 24" class="playbuttonsvg">
+        <polygon points="8,5 8,19 19,12" fill="black"/>
+    </svg></span>
+    </div>
+    <h2 class="playlist-songsheading">Morning-boost</h2>
+    <p class="parainplaylist">Start your day energized with upbeat tracks.</p>
+</div>
+
+<div class="card">
+    <div class="imagecardsontainer">
+        <img src="pictures/study-beats_pic.jpg" alt="">
+        <span class="playbutton Study-beats Playbutton_Play"><svg viewBox="0 0 24 24" class="playbuttonsvg">
+        <polygon points="8,5 8,19 19,12" fill="black"/>
+    </svg></span>
+    </div>
+    <h2 class="playlist-songsheading">Study-beats</h2>
+    <p class="parainplaylist">Focus and concentrate with calm background music.</p>
+</div>
+
+<div class="card">
+    <div class="imagecardsontainer">
+        <img src="pictures/Road-trip-tunes_pic.jpg" alt="">
+        <span class="playbutton Road-trip-tunes Playbutton_Play"><svg viewBox="0 0 24 24" class="playbuttonsvg">
+        <polygon points="8,5 8,19 19,12" fill="black"/>
+    </svg></span>
+    </div>
+    <h2 class="playlist-songsheading">Road-trip-tunes</h2>
+    <p class="parainplaylist">Perfect songs to enjoy on long drives.</p>
+</div>
+
+<div class="card">
+    <div class="imagecardsontainer">
+        <img src="pictures/Relax-&-unwind_pic.jpg" alt="">
+        <span class="playbutton Relax-unwind Playbutton_Play"><svg viewBox="0 0 24 24" class="playbuttonsvg">
+        <polygon points="8,5 8,19 19,12" fill="black"/>
+    </svg></span>
+    </div>
+    <h2 class="playlist-songsheading">Relax-unwind</h2>
+    <p class="parainplaylist">Peaceful melodies to help you chill out.</p>
+</div>
+<div class="card">
+    <div class="imagecardsontainer">
+        <img src="pictures/Sunset-songs_pic.jpg" alt="">
+        <span class="playbutton Sunset-songs Playbutton_Play"><svg viewBox="0 0 24 24" class="playbuttonsvg">
+        <polygon points="8,5 8,19 19,12" fill="black"/>
+    </svg></span>
+    </div>
+    <h2 class="playlist-songsheading">Sunset-songs</h2>
+    <p class="parainplaylist">Beautiful tracks to enjoy the evening vibes.</p>
+</div>
+
+<div class="card">
+    <div class="imagecardsontainer">
+        <img src="pictures/Feel-good-music_pic.jpg" alt="">
+        <span class="playbutton Feel-good-music Playbutton_Play"><svg viewBox="0 0 24 24" class="playbuttonsvg">
+        <polygon points="8,5 8,19 19,12" fill="black"/>
+    </svg></span>
+    </div>
+    <h2 class="playlist-songsheading">Feel-good-music</h2>
+    <p class="parainplaylist">Songs that instantly brighten your day.</p>
+</div>
+
+<div class="card">
+    <div class="imagecardsontainer">
+        <img src="pictures/Party-fun_pic.jpg" alt="">
+        <span class="playbutton Party-fun Playbutton_Play"><svg viewBox="0 0 24 24" class="playbuttonsvg">
+        <polygon points="8,5 8,19 19,12" fill="black"/>
+    </svg></span>
+    </div>
+    <h2 class="playlist-songsheading">Party-fun</h2>
+    <p class="parainplaylist">High-energy tracks to get everyone dancing.</p>
+</div>
+
+<div class="card">
+    <div class="imagecardsontainer">
+        <img src="pictures/Indies-vibes_pic.jpg" alt="">
+        <span class="playbutton Indie-vibes Playbutton_Play"><svg viewBox="0 0 24 24" class="playbuttonsvg">
+        <polygon points="8,5 8,19 19,12" fill="black"/>
+    </svg></span>
+    </div>
+    <h2 class="playlist-songsheading">Indie-vibes</h2>
+    <p class="parainplaylist">Discover fresh and unique indie tunes.</p>
+</div>
+
+    </div>
+    </div>
+    <div class="songs-opened">
+        <div class="arrow-goback">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <polyline points="15 18 9 12 15 6" />
+            </svg>
+
+        </div>
+        <div class="songs-info">
+            <img class="pictures-playlist" src="pictures/Happy-hits_pic.jpg"  alt="">
+            <div class="meta-info-playlist">
+            <h1 class="songsheading">Happy_hits</h1>
+            <span class="playlist-like-button"><svg viewBox="0 0 122.88 107.41" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+  <path d="M60.83 17.19C68.84 8.84 74.45 1.62 86.79 0.21
+           109.96-2.45 131.27 21.27 119.57 44.62
+           116.24 51.27 109.46 59.18 101.96 66.94
+           93.73 75.46 84.62 83.81 78.24 90.14
+           L60.84 107.4 46.46 93.56
+           C29.16 76.9 0.95 55.93 0.02 29.95
+           -0.63 11.75 13.73 0.09 30.25 0.3
+           45.01 0.5 51.22 7.84 60.83 17.19Z"/>
+</svg>
+</span>
+<p class="songspara">Songs that instantly brighten your day</p>
+            </div>
+        </div>
+        <div class="songs-toplay">
+            <span class="playbutton-in-playlist">
+                <svg viewBox="0 0 24 24" class="playbuttonsvg-playlist">
+        <polygon points="8,5 8,19 19,12" fill="black"/></svg>
+            </span>
+             <button class="shuffle-btn playlist-shuffle-btn">🔀</button>
+            <table class="tabelofsongs">
+             <tr>
+                    <th class="hasttag-num">#</th>
+                    <th class="title-num">TITLE</th>
+                    <th class="normal-th">ALBUM</th>
+                    <th class="normal-th">DURATION</th>
+                    <th class="normal-th">DATE CREATED</th>
+                </tr>
+<tbody class="tbodySongs">
+              <tr class="song-row">
+                    <th class="hasttag-num">
+                         <span class="number">1</span>
+    <span class="play-on-hover">
+      <svg viewBox="0 0 24 24" class="playbuttonsvg-song">
+        <polygon points="8,5 8,19 19,12" fill="white"/>
+      </svg>
+    </span>
+                    </th>
+                    <th class="title-num"></th>
+                    <th class="normal-th"></th>
+                    <th class="normal-th"></th>
+                    <th class="normal-th"></th>
+                    <th class="likebutton-table"><svg viewBox="0 0 122.88 107.41" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+  <path d="M60.83 17.19C68.84 8.84 74.45 1.62 86.79 0.21
+           109.96-2.45 131.27 21.27 119.57 44.62
+           116.24 51.27 109.46 59.18 101.96 66.94
+           93.73 75.46 84.62 83.81 78.24 90.14
+           L60.84 107.4 46.46 93.56
+           C29.16 76.9 0.95 55.93 0.02 29.95
+           -0.63 11.75 13.73 0.09 30.25 0.3
+           45.01 0.5 51.22 7.84 60.83 17.19Z"/>
+</svg>
+
+</th>
+              </tr>
+</tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="song-player-bar">
+    <div class="side-metabar">
+        <h1 class="info-song-heading"></h1>
+        <img class="img-in-metabar" src="pictures/sunset-songs_pic.jpg" alt="">
+    </div>
+    <div class="info-bar">
+        <h1 class="info-song-heading-playlist"></h1>
+        <input min="0" max="100" value="0" class="range-control" type="range">
+        <div class="player-center">
+            <button  class="shuffle-btn ">🔀</button>
+            <button id="prev-btn">⏮</button>
+            <button   id="play-btn">▶</button>
+            <button id="next-btn">⏭</button>
+            <button id="repeat-btn">🔁</button>
+    <div class="volume-sett">
+        <span class="volume_icon">🔊</span>
+        <input class="volume_bar" value="100" step="0.01" min="0" max="1" type="range">
+    </div>
+    <div class="time-display">
+        <span class="current_time"></span>/
+        <span class="total_time"></span>
+    </div>
+  </div>
+    </div>
+    <div class="control-bar"></div>
+</div>
+ <div id="loginModal" class="modal">
+    <div class="modal-backdrop" onclick="closeLogin()"></div>
+    <div class="modal-content">
+      <button class="close-btn" onclick="closeLogin()">×</button>
+      <h2 class="login-signup-heading">Log in</h2>
+      <form onsubmit="event.preventDefault();">
+          <div class="picture-dp">
+                <div class="picture-dp-container">
+    <img src="pictures/profile-pic-blank.jpg" id="picture-dp" alt="" class="imageupload">
+            </div>
+    <span class="hover-text">Upload image</span>
+</div>
+  <input type="email" placeholder="Email" autocomplete="email" id="email">
+  <input type="text" placeholder="First name" autocomplete="new-password" id="name-get" >
+  <input type="password" placeholder="Password"  autocomplete="new-password" id="password">
+</form>
+      <button class="login-submit">Log In</button>
+      <p class="descriptinheading">Note : Frontend demo only. No backend connected—this login form showcases UI/UX skills without processing any data.</p>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>

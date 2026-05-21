@@ -1,0 +1,667 @@
+@media (max-width: 1024px) {
+  .signup {
+    margin-top: 2vh;
+    margin-left: 20vw;
+    font-size: 1.5rem;
+  }
+
+  .login {
+    font-size: 1.5rem;
+  }
+
+  .modal-content {
+    height: 40%;
+  }
+
+  .home-search li:not(.showName-li) {
+    margin: 0;
+  }
+
+  .logo {
+    margin: 0;
+    padding-top: 0;
+  }
+
+  .picture-dp-container {
+    margin: 0 25%;
+  }
+
+  .playlistsheading {
+    font-size: 2rem;
+  }
+
+  .card>* {
+    font-size: 1.4rem;
+  }
+
+  .songs-info>* {
+    font-size: 1.6rem;
+  }
+
+  .player-center button {
+    transform: scale(3);
+    padding: 0 0.5rem;
+  }
+
+  .volume-sett {
+    transform: scale(2);
+  }
+
+  .volume_bar {
+    width: 4rem;
+  }
+
+  .songs-toplay>* {
+    font-size: 1.35rem;
+  }
+
+  .searchbar {
+    margin: 2vh 1vw 0 2vw;
+  }
+
+  .info-song-heading-playlist {
+    font-size: 2.5rem;
+  }
+
+  .footer a {
+    font-size: 1.3rem;
+  }
+
+  .searchinput {
+    height: 5.5vw;
+    width: 40vw;
+    margin-top: 1vh;
+  }
+
+  .home-icon {
+    margin-top: 1vh;
+  }
+
+  .cardcontainer {
+    gap: 15px;
+    padding: 15px;
+    justify-content: flex-start;
+  }
+
+  .card {
+    width: calc(33.3% - 10px);
+    min-width: 150px;
+    max-width: none;
+    margin-bottom: 15px;
+  }
+
+  .imagecardsontainer {
+    width: 100%;
+    height: 150px;
+  }
+
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: static;
+    right: 0;
+  }
+
+  .arrow-goback {
+    top: 10px;
+    left: 10px;
+  }
+
+  .arrow-goback svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  .footer {
+    font-size: 0.6rem;
+  }
+
+  .left {
+    width: 30vw;
+    padding: 10px;
+  }
+
+  .right {
+    width: 70vw;
+  }
+
+  .library-menu li {
+    width: 25vw;
+    font-size: 1.3rem;
+  }
+
+  .right {
+    overflow-x: hidden;
+  }
+
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .song-player-bar {
+    width: 100%;
+  }
+
+  .playlist-like-button {
+    margin-left: 12vw;
+   transform: scale(1.3);
+  }
+
+  .showName-li {
+    width: 25vw;
+    margin-left: 20vw;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  .searchinput ::placeholder {
+    font-size: 2rem;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .signup {
+    margin-left: 10vw;
+    font-size: 1.3rem;
+  }
+
+  .login {
+    font-size: 1.3rem;
+  }
+
+  .searchinput {
+    margin: 2vh 0 0 0;
+  }
+
+  .searchbar {
+    margin: 2vh 0 0 2vw;
+  }
+
+  .home-icon {
+    margin: 2vh 0 0 0;
+  }
+
+  .liked-playlists-history,
+  .songs-recently-viewed,
+  .songs-liked-history {
+    width: 22vw;
+  }
+
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .player-center button {
+    transform: scale(2.5);
+    padding: 0 0.4rem;
+  }
+
+  .time-display {
+    margin: 0;
+  }
+
+  .songs-info>* {
+    font-size: 1rem;
+  }
+
+  .modal-content {
+    height: 45%;
+  }
+
+  .picture-dp-container {
+    margin: 0;
+  }
+
+  .songs-toplay {
+    top: 30vh;
+  }
+
+  .volume-sett {
+    transform: scale(1.5);
+  }
+
+  .title-num {
+    width: 20vw;
+  }
+
+  .title-num,
+  .normal-th {
+    font-size: 1rem !important;
+  }
+
+  .footer a {
+    font-size: 0.9rem;
+  }
+
+  .info-song-heading-playlist {
+    font-size: 1.7rem;
+  }
+
+  .img-in-metabar {
+    width: 100px;
+    height: 83px;
+  }
+
+  .showName-li {
+    margin-left: 10vw;
+  }
+
+  .song-player-bar {
+    width: 100%;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  .parainplaylist {
+    font-size: 0.9rem;
+  }
+
+  .card {
+    width: calc(33.3% - 10px);
+    min-width: 100px;
+    max-width: none;
+    margin-bottom: 12px;
+  }
+
+  .normal-th,
+  .hasttag-num,
+  .title-num {
+    font-size: 0.8rem;
+  }
+
+  .library-menu li {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width:480px) {
+  .left {
+    width: 35vw;
+  }
+
+  .right {
+    width: 65vw;
+  }
+
+  .playlistsheading {
+    display: inline;
+  }
+
+  .mobile-SideBar {
+    display: inline;
+  }
+
+  .searchinput {
+    width: 30vw;
+  }
+
+  .footer a {
+    font-size: 0.8rem !important;
+    color: #898989;
+  }
+
+  .player-center button {
+    transform: scale(2.5);
+    padding: 0 0.4rem;
+  }
+.tabelofsongs{
+  padding-top: 0;
+}
+  .volume-sett {
+    margin: 0 0 0 2.5rem;
+    transform: scale(1.3);
+  }
+
+  .signup {
+    margin-left: 1rem;
+    font-size: 1rem ;
+    padding: 0.3rem;
+  }
+.login{
+  font-size: 1rem ;
+}
+
+  .songs-info>* {
+    font-size: 1rem;
+  }
+
+  .login {
+    font-size: 1rem;
+    padding: 0.3rem 0.5rem;
+    margin: 2vh 0 0 0.3rem;
+  }
+  .footer, .library, .header, .searchinput, .playlists, .songs-opened{
+    background-color: #080808;
+  }
+  .searchinput{
+    border: #080808 1.5px solid;
+  }
+  .logo {
+    width: 60px;
+    height: 60px;
+    margin: 1vh 0;
+  }
+  .modal-content {
+    height: 50%;
+    width: 90%;
+  }
+  
+  .playlist-like-button {
+    margin: 5vh 7vw 0 0;
+  }
+
+  .searchbar {
+    margin: 3vh 0.2rem;
+    height: 1.7rem;
+  }
+
+  .searchinput {
+    height: 3.5vh;
+  }
+
+  .songs-info {
+    min-width: 100%;
+  }
+
+  .songs-toplay {
+    min-width: 100%;
+    top: 30vh;
+    right: 65vw;
+  }
+
+  .playbutton-in-playlist {
+    width: 45px;
+    height: 45px;
+  }
+
+  .playlist-shuffle-btn {
+    transform: scale(1.7);
+  }
+
+  .tabelofsongs {
+    width: 100%;
+  }
+
+  .title-num {
+    width: 20vw;
+  }
+
+  .librarayheading {
+    font-size: 1rem;
+  }
+
+  .library-menu li {
+    font-size: 0.73rem !important;
+    font-weight: 500;
+    width: 35vw;
+    padding: 0;
+    margin: 2vh 0;
+  }
+.songs-liked-history, .songs-recently-viewed, .liked-playlists-history{
+  width: 33vw;
+}
+.library-songs-history li > h3{
+   font-size: 0.6rem !important;
+}
+  .library-menu {
+    padding: 0;
+  }
+
+  .songs-info img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .songspara {
+    margin: 5vh 10vw 0 0;
+    font-size: 1.1rem;
+    width: 40vw;
+  }
+
+  .library-menu svg {
+    width: 20px;
+  }
+  .playbuttonsvg{
+    width: 17px;
+    height: 17px;
+  }
+  .playbutton {
+    width: 35px;
+    height: 35px;
+  }
+  .history-view-heading {
+    font-size: 0.7rem;
+  }
+
+  .library-songs-history li {
+    width: 26vw;
+  }
+
+  .library-songs-history li a {
+    font-size: 0.75rem;
+    max-width: 10%;
+  }
+  .rows-search-result >*{
+    font-size: 0.85rem ;
+  }
+  .player-center button{
+    width: 18%;
+  }
+  .tbody-image-search-Result{
+    width: 20px;
+    height: 15px;
+  }
+  .thead-search-Result{
+    font-size: 0.95rem;
+  }
+  .library-songs-history li img{
+    width: 20px;
+    height: 20px;
+  }
+.library-songs-history li svg {
+  margin-left: 0.5vw;
+}
+  .songs-recently-viewed,
+  .songs-liked-history,
+  .liked-playlists-history {
+    width: 25vw;
+  }
+
+  .imagecardsontainer {
+    height: 13vh;
+    width: 25vw;
+  }
+
+  .card>* {
+    font-size: 0.8rem;
+  }
+
+  .showName-li {
+    margin-left: 8vw;
+  }
+
+  #Profile-pic {
+    width: 3rem;
+    height: 3rem;
+    margin-left: 10%;
+  }
+
+  .showName-login {
+    font-size: 1rem;
+    width: 13vw;
+  }
+  .card {
+    width: calc(50% - 30.5px);
+    min-width: none;
+  }
+.left{
+  padding: 1%;
+}
+  .songs-opened,
+  .songs-info,
+  .songs-toplay {
+    width: 65vw;
+  }
+.cardcontainer{
+  padding: 1%;
+}
+  .normal-th {
+    font-size: 0.7rem !important;
+    width: 20vw;
+  }
+
+  .info-bar {
+    margin-right: 0;
+  }
+  .img-in-metabar {
+    width: 70px;
+    height: 70px;
+  }
+
+  .info-song-heading-playlist {
+    font-size: 1rem;
+  }
+}
+
+@media(max-width:420px) {
+  .imagecardsontainer {
+    height: 13vh;
+    width: 23vw;
+  }
+
+  .card {
+    width: calc(25% - 15.5px);
+    min-width: 90px;
+  }
+
+  .parainplaylist {
+    font-size: 0.7rem;
+  }
+
+  .playlistsheading {
+    font-size: 1.5rem;
+  }
+
+  .button-showhide {
+    transform: scale(0.8);
+  }
+
+  .footer a {
+    font-size: 0.56rem;
+  }
+
+  .songs-info img {
+    width: 80px;
+    height: 70px;
+  }
+
+  .songsheading {
+    font-size: 1.2rem;
+  }
+
+  .playlist-like-button {
+    transform: scale(0.75);
+  }
+
+  .showName-login {
+    width: 20vw;
+  }
+  .modal-content {
+    height: 70%;
+    width: 95%;
+  }
+
+  #Profile-pic {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .title-num {
+    font-size: 0.75rem !important;
+  }
+
+  .normal-th {
+    font-size: 0.55rem !important;
+  }
+
+  .likebutton-table {
+    transform: scale(0.7);
+  }
+
+  .img-in-metabar {
+    width: 57px;
+    height: 50px;
+  }
+
+  .player-center button {
+    transform: scale(1.9);
+  }
+
+  .volume-sett {
+    transform: scale(1);
+  }
+
+  .volume_bar {
+    width: 5rem;
+  }
+
+  .time-display span {
+    font-size: 0.86rem;
+  }
+
+  .songspara {
+    font-size: 0.75rem;
+  }
+
+  .playbutton-in-playlist {
+    transform: scale(0.7);
+  }
+
+  .playlist-shuffle-btn {
+    transform: scale(1.3);
+  }
+
+  .cardcontainer {
+    gap: 5px;
+  }
+
+  .login,
+  .signup {
+    font-size: 0.76rem;
+  }
+
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .home-icon {
+    transform: scale(0.75);
+  }
+
+  .searchbar {
+    transform: scale(0.75);
+  }
+
+  .library-menu li {
+    font-size: 0.6rem;
+  }
+
+  .library-menu li svg {
+   transform: scale(0.8);
+  }
+}

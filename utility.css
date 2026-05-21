@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.flex{
+    display:flex;
+}
+.border{
+    border: 1px solid red;
+    margin: 3px;
+}
+.justify_center{
+    justify-content: center;
+}
+.align_center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.hidden { 
+    display: none !important;
+ }
+.rounded{
+    border-radius: 10px;
+}
+.like-show {
+    fill: red !important;
+}
+.like-disable{
+    color: white !important;
+}
