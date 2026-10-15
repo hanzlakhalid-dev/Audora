@@ -36,7 +36,7 @@ margin-top: 2vh;
     flex-shrink: 0;
 }
 .footer{
-    background-color: #1f1f1f;
+    background-color: #020202;
 }
 .footer a{
     color: rgb(191, 191, 191);
@@ -49,7 +49,7 @@ cursor: pointer;
 .library{
     margin: 5vh 0 5vh 0;
 height: 50vh;
-background-color: #1f1f1f;
+background-color: #020202;
 overflow-y: auto;
 }
 .librarayheading{
@@ -139,7 +139,7 @@ padding: 3px;
     color:rgb(255, 255, 255) ;
 }
 .header{
-    background-color:#1f1f1f;
+    background-color:#020202;
 }
 .signup{
     margin-left:40vw ;
@@ -178,8 +178,8 @@ padding: 3px;
     margin: 1vh 0 0 2vw;
 }
 .searchinput{
-     background-color: #1f1f1f;
-     border: 1.5px solid #1f1f1f;
+     background-color: #020202;
+     border: 1.5px solid #020202;
     color: white;
     padding: 0 10px;
     height: 8vh;
@@ -193,8 +193,8 @@ padding: 3px;
     font-size: 1.2rem;
 }
 .searchinput:hover{
-    border: 1.5px solid #383838;
-    background-color: #313131;
+    border: 1.5px solid #0a0a0a;
+    background-color: #060606;
 }
 .searchinput:active{
     border: 1.5px solid rgb(255, 255, 255);
@@ -266,7 +266,7 @@ position: relative;
     cursor: pointer;
 }
 .playlists, .songs-opened{
-    background-color: #1f1f1f;
+    background-color: #020202;
 }
 .playbuttonsvg {
     width: 34px;
@@ -422,11 +422,11 @@ scale: 1.1;
     height: 17vh;
    background: linear-gradient(
         to top,
-        #0f0f0f 0%,
-        #181818 40%,
-        #1f1f1f 100%
+        #010101 0%,
+        #010101 40%,
+        #020202 100%
     );
-    border-top: 1px solid #2a2a2a;
+    border-top: 1px solid #0a0a0a;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -466,7 +466,7 @@ scale: 1.1;
    color: white;
    width: 13%;
    padding: 0 1.7rem;
-   background-color:#18181800;
+   background-color:#02020200;
    border: none;
    transform: scale(2);
    cursor: pointer;
@@ -589,11 +589,11 @@ margin: 1.2rem 1.2rem 1.2rem 0;
   
   height: 55%; 
   
-  background: #1e1e1e;
+  background: #020202;
   border-radius: 12px;
   padding: 2.5rem;
   box-shadow: 0 20px 60px rgba(0,0,0,0.5);
-  border: 1px solid #333;
+  border: 1px solid #0a0a0a;
 }
 
 .modal.active {
@@ -610,8 +610,8 @@ margin: 1.2rem 1.2rem 1.2rem 0;
   width: 100%;
   padding: 0.7rem;
   margin-bottom: 0.6rem;
-  background: #2a2a2a;
-  border: 1px solid #444;
+  background: #060606;
+  border: 1px solid #0f0f0f;
   border-radius: 6px;
   color: white;
   font-size: 14px;
